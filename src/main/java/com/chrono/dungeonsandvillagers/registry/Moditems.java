@@ -8,9 +8,9 @@ import net.minecraft.util.registry.Registry;
 
 public class Moditems {
 
-    public static final Item Ruby = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item ruby = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
     public static void registerItems() {
-        Registry.register(Registry.ITEM, new Identifier(dungeonsandvillagers.MOD_ID, "ruby"), Ruby);
+        Registry.register(Registry.ITEM, new Identifier(dungeonsandvillagers.MOD_ID, "ruby"), ruby);
     }
 }
