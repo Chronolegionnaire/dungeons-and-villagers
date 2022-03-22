@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "dandv",
+  "version": "0.0.1",
+
+  "name": "Dungeons And Villagers",
+  "description": "A Minecraft mod that overhauls villagers and the village gameplay loop.",
+  "authors": [
+    "Chrono",
+    "TheClag"
+  ],
+  "contact": {
+    "repo": "https://github.com/Chronolegionnaire/dungeons-and-villagers.git"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/dandv/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chrono.dungeonsandvillagers.dungeonsandvillagers"
+    ]
+  },
+
+          "mixins": [
+        "dungeons-and-villagers.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=0.13.3",
+              "fabric": "*",
+          "minecraft": "1.18.2"
+  }
+}
